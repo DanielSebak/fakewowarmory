@@ -1,0 +1,83 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Gear
+    </ion-title>
+  </ion-toolbar>
+  <ion-fab vertical="top" horizontal="end">
+    <ion-fab-button (click)="CharacterApperance()">
+      <ion-icon name="search-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="stacked" >Character name</ion-label>
+    <ion-input placeholder="Must be filled(lowercase)" [(ngModel)]="character_name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Realm</ion-label>
+    <ion-input placeholder="Must be filled(lowercase)" [(ngModel)]="realm_name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Head</ion-label>
+    <ion-label class="ion-textarea">{{head}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Neck</ion-label>
+    <ion-label>{{neck}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Shoulder</ion-label>
+    <ion-label>{{shoulder}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Back</ion-label>
+    <ion-label>{{back}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Chest</ion-label>
+    <ion-label>{{chest}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Shirt</ion-label>
+    <ion-label>{{shirt}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Wrist</ion-label>
+    <ion-label>{{wrist}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Hands</ion-label>
+    <ion-label>{{hands}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Waist</ion-label>
+    <ion-label>{{waist}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Legs</ion-label>
+    <ion-label>{{legs}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Feet</ion-label>
+    <ion-label>{{feet}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Finger1</ion-label>
+    <ion-label>{{finger1}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Finger2</ion-label>
+    <ion-label>{{finger2}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Trinket1</ion-label>
+    <ion-label>{{trinket1}}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked" >Trinket2</ion-label>
+    <ion-label>{{trinket2}}</ion-label>
+  </ion-item>
+</ion-content>
